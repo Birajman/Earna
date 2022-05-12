@@ -1,0 +1,41 @@
+footer
+{
+    background-color: #1B1B1B;
+    padding: 12rem 0;
+    position: relative;
+    img
+    {
+        margin-bottom: 2rem;
+    }
+    p
+    {
+        color: #a0a2a6 !important;
+        text-transform: none;
+        font-size: 1.4rem;
+        font-weight: 600;
+        a
+        {
+            color: white;
+            text-decoration: none;
+            &:hover
+            {
+                color: blueviolet;
+            }
+        }
+    }
+    &::after
+    {
+        content: '';
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100%;
+        width: 400px;
+        background: url(https://validthemes.online/themeforest/earna/assets/img/map.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: 1;
+        opacity: 0.3;
+
+    }
+}

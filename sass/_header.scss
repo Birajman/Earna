@@ -1,0 +1,59 @@
+.background_color
+{
+    background: linear-gradient(1800deg, rgba(2,0,36,1) 0%, rgba(0,0,0,0.13518910982361698) 100%, rgba(0,212,255,1) 100%), url(https://validthemes.online/themeforest/earna/assets/img/banner/2.jpg);
+    height: 100vh;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    header
+    {
+        .navbar
+        {
+            background-color: transparent;
+            align-items: center;
+            &-nav
+            {
+                .nav-item
+                {
+                    .nav-link
+                    {
+                        color: white;
+                        font-size: 13px;
+                        letter-spacing: 0.06em;
+                        padding: 35px 15px;
+                        text-transform: uppercase;
+                        font-family: 'Poppins', sans-serif;
+                        font-weight: 600 !important;
+                    }
+                }
+            }
+        }
+    }
+    &-text
+    {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%);
+        text-align: center;
+        p
+        {
+            font-weight: 700;
+            margin-bottom: 2.5rem;
+            color: white;
+            font-size: 4rem;
+        }
+        button
+        {
+            padding: 17px 42px;
+            background: rgb(11,50,217);
+            background: linear-gradient(90deg, rgba(11,50,217,1) 0%, rgba(14,223,213,0.9951330874146533) 100%, rgba(0,212,255,1) 100%);
+            border: none;
+            color: white;
+            font-weight: 700;
+            font-size: 1.5rem;
+            border-radius: 1rem;
+        }
+    }
+}

@@ -1,0 +1,64 @@
+.banner
+{
+    background-color: #CEE0F8;
+    padding-top: 12rem;
+    padding-bottom: 10rem;
+   &-first
+   {
+    h1
+    {
+        font-weight: 700;
+        font-size: 3.6rem;
+        line-height: 1.2;
+        font-family: 'Poppins', sans-serif;
+        letter-spacing: .1rem;
+        color: #232323;
+        margin-bottom: 4rem;
+        position: relative;
+        &::after
+        {
+            content: '';
+            width: 5rem;
+            height: .3rem;
+            background-color: #2d82eb;
+            position: absolute;
+            top: 6rem;
+            right: 45%;
+        }
+        &::before
+        {
+            content: '';
+            width: 1rem;
+            height: .3rem;
+            background-color: #2d82eb;
+            position: absolute;
+            top: 6rem;
+            left: 49%;
+        }
+    }
+    .row
+    {
+
+        padding: 3.5rem 0;
+        .col-lg-6
+        {
+            img
+            {
+                border: 1rem white solid;
+                margin-bottom: 2rem;
+            }
+            span
+            {
+                font-size: 1.6rem;
+                font-weight: 800;
+                text-transform: uppercase;
+            }
+        }
+       
+    }
+   }
+   .padding-top
+   {
+       padding-top: 5rem;
+   }
+}
